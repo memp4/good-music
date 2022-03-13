@@ -68,7 +68,12 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     background-color: white;
+}
+
+main {
     display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
 }
 
 .item {
@@ -79,6 +84,31 @@ body {
     font-family: "Text";
     margin: 30px 20px;
     width: 200px;
+}
+
+.item-cover {
+    transition: all 0.6s;
+}
+
+.item-cover:hover {
+    transform: scale(1.05);
+    box-shadow: -10px 10px 5px black;
+}
+
+.item-title {
+    width: inherit;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.item-artist {
+    width: inherit;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
 }
 
 .item-format {
@@ -95,7 +125,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px
+    gap: 50px;
+    margin-top: 10px;
 }
 
 .active {
@@ -153,4 +184,29 @@ body {
     width: 100%;
     height: 100%;
     transition: all 0.3s;
+}
+
+footer {
+    background-color: var(--back-color);
+    width: inherit;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-family: "Text solid";
+    align-items: center;
+    padding-top: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    color: black;
 }
