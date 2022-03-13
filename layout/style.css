@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 :root {
-    --back-color: #bcbcbc;
+    --header-color: #bcbcbc;
+    --back-color: #eeeeee;
 }
 
 a {
@@ -13,25 +14,35 @@ a {
 }
 
 @font-face {
-    font-family: "National Hero";
+    font-family: "Comic title";
     src: url("fonts/National Hero!.otf");
 }
 
 @font-face {
-    font-family: "Cocogoose";
+    font-family: "Text solid";
     src: url("fonts/Cocogoose Pro Semilight-trial.ttf");
+}
+
+@font-face {
+    font-family: "Text";
+    src: url("fonts/KGHAPPY.ttf");
+}
+
+@font-face {
+    font-family: "Text shadow";
+    src: url("fonts/KGHAPPYShadows.ttf");
 }
 
 header {
     padding: 20px 40px;
-    background-color: var(--back-color);
+    background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-family: "National Hero";
+    font-family: "Comic title";
     font-size: 40px;
     color: white;
     display: flex;
@@ -43,9 +54,103 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
-    font-family: "Cocogoose";
+    font-family: "Text solid";
 }
-
 .interact .icon {
     fill: white;
+}
+
+body {
+    background-color: var(--back-color);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: "Text";
+    margin: 30px 20px;
+    width: 200px;
+}
+
+.item-format {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.item-format li:hover {
+    cursor: pointer;
+}
+
+.item-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: black;
+    box-shadow: -1px 2px 4px black;
+    height: 4px;
+    width: 100%;
+}
+
+.disabled {
+    font-family: "Text shadow"
+}
+
+.disabled:hover {
+    cursor: not-allowed !important;
+}
+
+.button {
+    position: relative;
+    padding: 4px;
+}
+
+.button::after, .button::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    transition: all 0.6s;
+}
+
+.button::after {
+    bottom: -2px;
+    right: -2px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.button::before {
+    top: -2px;
+    left: -2px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.button:hover::before, .button:hover::after {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
 }
