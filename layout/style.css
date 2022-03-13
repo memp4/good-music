@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --back-color: #bcbcbc;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: "National Hero";
+    src: url("fonts/National Hero!.otf");
+}
+
+@font-face {
+    font-family: "Cocogoose";
+    src: url("fonts/Cocogoose Pro Semilight-trial.ttf");
+}
+
+header {
+    padding: 20px 40px;
+    background-color: var(--back-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "National Hero";
+    font-size: 40px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.interact {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: "Cocogoose";
+}
+
+.interact .icon {
+    fill: white;
+}
