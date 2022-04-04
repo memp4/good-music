@@ -1,0 +1,52 @@
+{
+    "musicItems": [
+        {
+            "id": 0,
+            "img": "",
+            "title": "The Chronic",
+            "artist": "Dr. Dre",
+            "format": [0, 1],
+            "price": 57
+        },
+        {
+            "id": 1,
+            "img": "",
+            "title": "America's Sweetheart",
+            "artist": "Courtney Love",
+            "format": [0],
+            "price": 75
+        },
+        {
+            "id": 2,
+            "img": "",
+            "title": "Odessa",
+            "artist": "Bee Gees",
+            "format": [0, 1],
+            "price": 57
+        },
+        {
+            "id": 3,
+            "img": "",
+            "title": "Supersnazz",
+            "artist": "The Flamin' Groovies",
+            "format": [1],
+            "price": 57
+        },
+        {
+            "id": 4,
+            "img": "",
+            "title": "Parliament",
+            "artist": "Mothership Connection",
+            "format": [0, 1],
+            "price": 57
+        },
+        {
+            "id": 5,
+            "img": "",
+            "title": "Return to the 36 Chambers: The Dirty Version",
+            "artist": "Ol’ Dirty Bastard",
+            "format": [0, 1],
+            "price": 57
+        }
+    ]
+}
