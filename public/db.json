@@ -2,7 +2,7 @@
     "musicItems": [
         {
             "id": 0,
-            "img": "",
+            "img": "Dr-Dre-The-Chronic-album-cover.webp",
             "title": "The Chronic",
             "artist": "Dr. Dre",
             "format": [0, 1],
@@ -10,7 +10,7 @@
         },
         {
             "id": 1,
-            "img": "",
+            "img": "Courtney-Love-Americas-Sweetheart.webp",
             "title": "America's Sweetheart",
             "artist": "Courtney Love",
             "format": [0],
@@ -18,7 +18,7 @@
         },
         {
             "id": 2,
-            "img": "",
+            "img": "Bee-Gees-Odessa-album-cover-web-optimised-820.webp",
             "title": "Odessa",
             "artist": "Bee Gees",
             "format": [0, 1],
@@ -26,7 +26,7 @@
         },
         {
             "id": 3,
-            "img": "",
+            "img": "Flamin-Groovies.webp",
             "title": "Supersnazz",
             "artist": "The Flamin' Groovies",
             "format": [1],
@@ -34,7 +34,7 @@
         },
         {
             "id": 4,
-            "img": "",
+            "img": "Parliament-Mothership-Connection-album.webp",
             "title": "Parliament",
             "artist": "Mothership Connection",
             "format": [0, 1],
@@ -42,7 +42,7 @@
         },
         {
             "id": 5,
-            "img": "",
+            "img": "Return-to-the-36-Chambers-The-Dirty-Version.webp",
             "title": "Return to the 36 Chambers: The Dirty Version",
             "artist": "Ol’ Dirty Bastard",
             "format": [0, 1],
