@@ -11,8 +11,8 @@ const Main = () => {
             .then(jsonArr => setMusicItemsArr(jsonArr));
     }, []);
 
-    const musicItemsToRender = musicItemsArr.map(({id, img, title, artist, format, price}) => (
-        <MusicItem 
+    const musicItemsToRender = musicItemsArr.map(({ id, img, title, artist, format, price }) => (
+        <MusicItem
             key={id}
             img={img}
             title={title}

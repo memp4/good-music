@@ -30,7 +30,7 @@
             "title": "Supersnazz",
             "artist": "The Flamin' Groovies",
             "format": [1],
-            "price": 57
+            "price": 67
         },
         {
             "id": 4,
@@ -38,7 +38,7 @@
             "title": "Parliament",
             "artist": "Mothership Connection",
             "format": [0, 1],
-            "price": 57
+            "price": 53
         },
         {
             "id": 5,
@@ -46,7 +46,7 @@
             "title": "Return to the 36 Chambers: The Dirty Version",
             "artist": "Ol’ Dirty Bastard",
             "format": [0, 1],
-            "price": 57
+            "price": 70
         }
     ]
 }

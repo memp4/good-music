@@ -67,7 +67,7 @@ body {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--back-color);
 }
 
 main {
@@ -129,6 +129,15 @@ main {
     margin-top: 10px;
 }
 
+@keyframes slide-to-right {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 .active {
     position: relative;
 }
@@ -142,6 +151,9 @@ main {
     box-shadow: -1px 2px 4px black;
     height: 4px;
     width: 100%;
+    animation-name: slide-to-right;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
 }
 
 .disabled {
@@ -195,6 +207,7 @@ footer {
     font-family: "Text solid";
     align-items: center;
     padding-top: 20px;
+    margin-bottom: 40px;
 }
 
 footer ul {
