@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-import MusicItem from './components/MusicItem';
+import { MusicItem } from '../components';
 
 const Main = () => {
     const [musicItemsArr, setMusicItemsArr] = useState([]);
