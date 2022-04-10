@@ -6,6 +6,8 @@ import { addToCart } from '../redux/action';
 import SelectList from './SelectList';
 import Button from './Button';
 
+//TODO: Refactor this component
+//It must fit to Cart page too
 const MusicItem = ({ img, title, artist, format, price }) => {
     const formats = ["Vinyl", "CD Drive"];
     const [addCount, setAddCount] = useState(0);
