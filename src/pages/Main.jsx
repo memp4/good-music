@@ -22,7 +22,7 @@ const Main = () => {
         />
     ));
     return (
-        <main>
+        <main className="catalog">
             {musicItemsToRender}
         </main>
     );

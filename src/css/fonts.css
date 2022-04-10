@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Comic title";
+    src: url("./fonts/NationalHero.otf");
+}
+
+@font-face {
+    font-family: "Text solid";
+    src: url("./fonts/Cocogoose Pro Semilight-trial.ttf");
+}
+
+@font-face {
+    font-family: "Text";
+    src: url("./fonts/KGHAPPY.ttf");
+}
+
+@font-face {
+    font-family: "Text shadow";
+    src: url("./fonts/KGHAPPYShadows.ttf");
+}

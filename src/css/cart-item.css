@@ -1,0 +1,15 @@
+.page-name {
+    margin: 20px 0 20px 15px;
+}
+
+.cart-item {
+    display: flex;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

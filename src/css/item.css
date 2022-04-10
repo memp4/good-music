@@ -1,0 +1,52 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 20px;
+    width: 200px;
+}
+
+.item-cover {
+    transition: all 0.6s;
+}
+
+.item-cover:hover {
+    transform: scale(1.05);
+    box-shadow: -10px 10px 5px black;
+}
+
+.item-title {
+    width: inherit;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.item-artist {
+    width: inherit;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.item-format {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.item-format li:hover {
+    cursor: pointer;
+}
+
+.item-buy {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+}

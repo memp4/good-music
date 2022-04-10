@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../redux/action';
 
 import SelectList from './SelectList';
 import Button from './Button';
@@ -7,11 +9,18 @@ import Button from './Button';
 const MusicItem = ({ img, title, artist, format, price }) => {
     const formats = ["Vinyl", "CD Drive"];
     const [addCount, setAddCount] = useState(0);
+    const dispatch = useDispatch();
 
     const display = addCount > 0 ? "display" : "";
 
     const increaseCountOne = () => {
         setAddCount(addCount + 1);
+        dispatch(addToCart({
+            img: img,
+            title: title,
+            artist: artist,
+            price: price
+        }));
     }
 
     return (
